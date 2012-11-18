@@ -11,14 +11,14 @@ It gives you:
 * Javascript assistance with pickers and choosers where appropriate using jQuery
 * CSS themeable rendering of forms
 
-    `<nerderg:formfield label='Select one' field='age' bean='${myCommand}'> <g:select name="age" from="${18..65}" value="${myCommand.age}"/>
-    </nerderg:formfield>
-    <nerderg:inputfield label='First name' field='firstname' bean='${myCommand}'/>
-    <nerderg:datefield label='Date of birth' field='dob' bean='${myCommand}' format='dd/MM/yyyy'/>
-    <nerderg:timefield label='Time of accident' field='toa' bean='${myCommand}' format='hh:mm a'/>
-    <nerderg:datetimefield label='Start' field='eventStart' bean='${myCommand}' format='dd/MM/yyyy hh:mm'/>
-    <nerderg:checkboxgroup label='Options' field='selOptions' from='${allOptions}' bean='${myCommand}'/>
-    <nerderg:asJSArray var="options" items='["opt1", "opt2", "opt3"]'/>`
+    `<nerderg:formfield label='Select one' field='age' bean='${myCommand}'> <g:select name="age" from="${18..65}" value="${myCommand.age}"/>'
+    `</nerderg:formfield>`
+    `<nerderg:inputfield label='First name' field='firstname' bean='${myCommand}'/>`
+    `<nerderg:datefield label='Date of birth' field='dob' bean='${myCommand}' format='dd/MM/yyyy'/>`
+    `<nerderg:timefield label='Time of accident' field='toa' bean='${myCommand}' format='hh:mm a'/>`
+    `<nerderg:datetimefield label='Start' field='eventStart' bean='${myCommand}' format='dd/MM/yyyy hh:mm'/>`
+    `<nerderg:checkboxgroup label='Options' field='selOptions' from='${allOptions}' bean='${myCommand}'/>`
+    `<nerderg:asJSArray var="options" items='["opt1", "opt2", "opt3"]'/>`
 
 General attributes
 ------------------
