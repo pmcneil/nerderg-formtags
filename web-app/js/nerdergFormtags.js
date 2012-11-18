@@ -2,8 +2,8 @@
  * Nerderg Form Tags support javascript file.
  */
 (nerdergFormTags = {
-    dateFormat: "dd/mm/yy", //date format that datepicker uses
-    dateImg: "../images/icons/date.png"
+    dateFormat: "dd/mm/yy", //date format that date picker uses
+    dateImg: "plugins/nerderg-form-tags-2.0/images/nerderg-icons/date.png"
 });
 
 $(function(){
@@ -14,7 +14,7 @@ $(function(){
         buttonImageOnly: true,
         changeMonth: true,
         changeYear: true
-    })
+    });
 
     $('input.time').timeEntry({
         spinnerImage: '',
