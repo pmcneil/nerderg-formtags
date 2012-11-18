@@ -1,0 +1,68 @@
+/*
+    Document   : nerdergFormTags
+    Created on : 03/11/2010, 2:10:48 PM
+    Author     : pmcneil
+    Description:
+        format form fields as a table
+*/
+
+.nerderg-formtags.prop {
+    text-align: left;
+    display: table-row;
+}
+.nerderg-formtags.prop .name {
+    text-align: left;
+    font-weight: bold;
+    padding: 0 10px 0 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.nerderg-formtags.prop .value {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+.inlineInputFields,
+.inlineFields {
+    height: 4.6em;
+    white-space: nowrap;
+}
+.inlineInputFields .nerderg-formtags.prop,
+.inlineFields .nerderg-formtags.prop{
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+}
+.inlineInputFields .nerderg-formtags.prop {
+    margin: 5px 0;
+}
+.inlineFields .nerderg-formtags.prop{
+    padding: 0;
+    background: #eee;
+}
+.inlineInputFields .value,
+.inlineInputFields .name {
+    font-weight: normal;
+}
+
+.inlineInputFields .nerderg-formtags.prop .value,
+.inlineInputFields .nerderg-formtags.prop .name,
+.inlineFields .nerderg-formtags.prop .value,
+.inlineFields .nerderg-formtags.prop .name {
+    display: block;
+    min-height: 1.2em;
+    padding: 0;
+}
+.inlineInputFields .nerderg-formtags.prop .name,
+.inlineFields .nerderg-formtags.prop .name {
+    background: #fff;
+}
+.inlineInputFields .nerderg-formtags.prop .name,
+.inlineFields .nerderg-formtags.prop .name {
+    *width: 0;
+}
+.inlineFields .nerderg-formtags.prop .value {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 0 10px;
+}
