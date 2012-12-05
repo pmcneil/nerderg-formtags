@@ -19,7 +19,7 @@ package com.nerderg.taglib
 import com.mdimension.jchronic.Chronic
 import java.text.SimpleDateFormat
 
-class NerdergFormtagsTagLib {
+class NerdergFormsTagLib {
     static namespace = "nerderg"
 
 
@@ -98,7 +98,7 @@ class NerdergFormtagsTagLib {
         }
 
         if (label) {
-            out << "<$div class='nerderg-formtags prop'>\n"
+            out << "<$div class='prop'>\n"
             out << "<$span class='name'><label"
             if (field) {out << " for='$field'"}
             out << ">$label$delim</label></$span>\n"

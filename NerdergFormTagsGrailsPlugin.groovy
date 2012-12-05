@@ -1,6 +1,6 @@
 class NerdergFormTagsGrailsPlugin {
     // the plugin version
-    def version = "2.1"
+    def version = "2.1.2"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "2.1 > *"
     // the other plugins this plugin depends on
@@ -28,7 +28,7 @@ It gives you:
     * CSS themeable rendering of forms
 
 e.g.
-
+{code:xml}
 <nerderg:formfield label='Select one' field='age' bean='${myCommand}'> <g:select name="age" from="${18..65}" value="${myCommand.age}"/>
 </nerderg:formfield>
 <nerderg:inputfield label='First name' field='firstname' bean='${myCommand}'/>
@@ -37,6 +37,7 @@ e.g.
 <nerderg:datetimefield label='Start' field='eventStart' bean='${myCommand}' format='dd/MM/yyyy hh:mm'/>
 <nerderg:checkboxgroup label='Options' field='selOptions' from='${allOptions}' bean='${myCommand}'/>
 <nerderg:asJSArray var="options" items='["opt1", "opt2", "opt3"]'/>
+{code}
 
 '''
 
