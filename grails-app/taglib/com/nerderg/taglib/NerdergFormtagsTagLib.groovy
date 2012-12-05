@@ -19,7 +19,7 @@ package com.nerderg.taglib
 import com.mdimension.jchronic.Chronic
 import java.text.SimpleDateFormat
 
-class NerdergFormsTagLib {
+class NerdergFormtagsTagLib {
     static namespace = "nerderg"
 
 
